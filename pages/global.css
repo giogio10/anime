@@ -1,0 +1,68 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  margin-left: 0%;
+  margin-left: 0%;
+  margin-bottom: auto;
+  max-width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, Avenir;
+  line-height: 1.6;
+  font-size: 18px;
+  background-color: #000000;
+}
+
+a {
+  color: #050505;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .img {
+    max-width: 100%;
+    display: block;
+  }
+  
+}
+
+.sezione-icone{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+
+}
+
+.program{
+  background-image: cover;
+  min-height: 30rem;
+}
+
+.widthimage{
+  width: 100% !important;
+  height:auto !important;
+}
+
+.widthimageRespiro{
+  width:auto !important;
+  height:auto !important;
+}
+
+.sfondoProgram{
+  background-color: grey;
+}
+
+.sfondoAbout{
+  background-color: #181818;
+}
+
+.posizione{
+  position: relative;
+ left: 250px;
+}

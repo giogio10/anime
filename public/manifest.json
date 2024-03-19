@@ -1,0 +1,20 @@
+{
+    "short_name": "Animè",
+    "name": "Animè",
+    "description": "Animè",
+    "scope": "/Home",
+    "start_url": "/Home", 
+    "lang": "it-IT",
+    "background_color": "black",
+    "theme_color": "black",
+    "display": "fullscreen",
+    "orientation": "portrait-primary",
+   "icons": [
+    {
+    "src": "/file.png",
+    "purpose": "any",
+    "sizes": "144x144"
+    
+    }
+    ]
+    }
