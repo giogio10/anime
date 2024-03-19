@@ -381,25 +381,25 @@ export default function PrimarySearchAppBar() {
           <DrawerHeader />
         </Main>
 
-        <section class=" program bg-light text-center bg-black  pb-5 ">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-9 ">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={min} class=" mb3 widthimage mt-5" />
+        <section className=" program bg-light text-center bg-black  pb-5 ">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-9 ">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={min} alt='50'className=" mb3 widthimage mt-5" />
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section class="sezione-icone bg-grey text-center sfondoAbout ">
+        <section className="sezione-icone bg-grey text-center sfondoAbout ">
           <href id="ancoraAbout" />
-          <h1 class="mt-0 text-white"> ABOUT US </h1>
-          <div class="container-fluid mt-5">
-            <div class="row justify-content-center">
-              <div class="col-lg-6">
-                <p class="lead mb-0 text-white">
+          <h1 className="mt-0 text-white"> ABOUT US </h1>
+          <div className="container-fluid mt-5">
+            <div className="row justify-content-center">
+              <div className="col-lg-6">
+                <p className="lead mb-0 text-white">
                   Animè nasce dall'idea collettiva di voler creare un percorso
                   professionale, attraverso cui avvicinare i giovani danzatori e
                   danzatrici allo studio intensivo delle molteplici proiezioni
@@ -419,16 +419,16 @@ export default function PrimarySearchAppBar() {
           </div>
         </section>
 
-        <section class="sezione-icone program text-center sfondoProgram ">
+        <section className="sezione-icone program text-center sfondoProgram ">
           <href id="ancoraProgram" />
-          <h1 class="mt-0 text-white"> PROGRAM </h1>
-          <div class="container mt-5">
-            <div class="row">
-              <div class="col-lg-6 ">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={fisica} class=" mb-2 widthimage mt-5" />
+          <h1 className="mt-0 text-white"> PROGRAM </h1>
+          <div className="container mt-5">
+            <div className="row">
+              <div className="col-lg-6 ">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={fisica} alt='fisica' className=" mb-2 widthimage mt-5" />
                   <h3> Preparazione Fisica</h3>
-                  <p class="font-weight-light mb-0 mt-4">
+                  <p className="font-weight-light mb-0 mt-4">
                     {" "}
                     La preparazione di un danzatore e di una danzatrice non può
                     prescindere da quella fisica. Un allenamento duro e sodo è
@@ -438,11 +438,11 @@ export default function PrimarySearchAppBar() {
                 </div>
               </div>
 
-              <div class="col-lg-6 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={respiro} class=" mb-2 widthimageRespiro mt-0" />
+              <div className="col-lg-6 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={respiro} alt='respiro' className=" mb-2 widthimageRespiro mt-0" />
                   <h3> Respiro</h3>
-                  <p class="font-weight-light mb-0 mt-4 ">
+                  <p className="font-weight-light mb-0 mt-4 ">
                     {" "}
                     Per un danzatore ed una danzatrice, respirare è fondamentale
                     per ossigenare il corpo e per rinforzare l’animo. È
@@ -453,11 +453,11 @@ export default function PrimarySearchAppBar() {
                 </div>
               </div>
 
-              <div class="col-lg-6">
-                <div class="program-singola mx-auto  mb-5 mb-lg-0 text-white">
-                  <Image src={coreo} class=" mb-2 widthimage mt-4" />
+              <div className="col-lg-6">
+                <div className="program-singola mx-auto  mb-5 mb-lg-0 text-white">
+                  <Image src={coreo} alt='coreografia' className=" mb-2 widthimage mt-4" />
                   <h3> Laboratorio Coreografico </h3>
-                  <p class="font-weight-light mb-0 mt-4 ">
+                  <p className="font-weight-light mb-0 mt-4 ">
                     {" "}
                     L’obiettivo di un laboratorio coreografico non è solo quello
                     di abituare le ragazze e i ragazzi all’esecuzione di una
@@ -468,11 +468,11 @@ export default function PrimarySearchAppBar() {
                 </div>
               </div>
 
-              <div class="col-lg-6">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white">
-                  <Image src={teatro} class="mb-2 widthimage mt-5" />
+              <div className="col-lg-6">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white">
+                  <Image src={teatro} alt='teatro' className="mb-2 widthimage mt-5" />
                   <h3> Laboratorio Teatrale </h3>
-                  <p class="font-weight-light mb-0 mt-4">
+                  <p className="font-weight-light mb-0 mt-4">
                     {" "}
                     Partecipare ad un laboratorio teatrale significa
                     intraprendere un percorso grazie al quale conoscere i mezzi
@@ -485,14 +485,14 @@ export default function PrimarySearchAppBar() {
           </div>
         </section>
 
-        <section class="sezione-icone program bg-light text-center bg-black bg-opacity-10">
+        <section className="sezione-icone program bg-light text-center bg-black bg-opacity-10">
           <href id="ancoraCast" />
-          <h1 class="mt-2 text-white"> CAST </h1>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 mt-5">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={Giorgia} class="rounded-circle mb-2 widthimage" />
+          <h1 className="mt-2 text-white"> CAST </h1>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 mt-5">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={Giorgia} alt='Giorgia' className="rounded-circle mb-2 widthimage" />
                   <h3 onClick={handleOpenGio}> GIORGIA DE CRISTOFARO </h3>
                   <Backdrop
                     sx={{
@@ -507,9 +507,9 @@ export default function PrimarySearchAppBar() {
                 </div>
               </div>
 
-              <div class="col-lg-6 mt-5">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white">
-                  <Image src={Cecilia} class="rounded-circle mb-2 widthimage" />
+              <div className="col-lg-6 mt-5">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white">
+                  <Image src={Cecilia} alt='Cecilia' className="rounded-circle mb-2 widthimage" />
                   <h3 onClick={handleOpenCecilia}> CECILIA NERCIDE </h3>
                   <Backdrop
                     sx={{
@@ -524,9 +524,9 @@ export default function PrimarySearchAppBar() {
                 </div>
               </div>
 
-              <div class="col-lg-6 mt-5">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white">
-                  <Image src={Jacopo} class="rounded-circle mb-2 widthimage" />
+              <div className="col-lg-6 mt-5">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white">
+                  <Image src={Jacopo} alt='Jacopo' className="rounded-circle mb-2 widthimage" />
                   <h3 onClick={handleOpenJac}> JACOPO D'ALLEVA </h3>
                   <Backdrop
                     sx={{
@@ -541,9 +541,9 @@ export default function PrimarySearchAppBar() {
                 </div>
               </div>
 
-              <div class="col-lg-6 mt-5">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white">
-                  <Image src={Ilaria} class="rounded-circle mb-2 widthimage" />
+              <div className="col-lg-6 mt-5">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white">
+                  <Image src={Ilaria} alt='Ilaria' className="rounded-circle mb-2 widthimage" />
                   <h3 onClick={handleOpenIla}> ILARIA MONACO </h3>
                   <Backdrop
                     sx={{
@@ -558,11 +558,11 @@ export default function PrimarySearchAppBar() {
                 </div>
               </div>
 
-              <div class="col-lg-6 mt-5">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white">
-                  <Image
+              <div className="col-lg-6 mt-5">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white">
+                  <Image alt='Olga'
                     src={fotoOlga}
-                    class="rounded-circle mb-2 widthimage"
+                    className="rounded-circle mb-2 widthimage"
                   />
                   <h3 onClick={handleOpenOlga}> OLGA MERLINI </h3>
                   <Backdrop
@@ -581,11 +581,11 @@ export default function PrimarySearchAppBar() {
           </div>
         </section>
 
-        <section class="sezione-icone  text-center text-grey">
-          <div class="container-fluid">
-            <div class="row justify-content-center">
-              <div class="col-lg-6">
-                <p class="lead mb-0 text-white">
+        <section className="sezione-icone  text-center text-grey">
+          <div className="container-fluid">
+            <div className="row justify-content-center">
+              <div className="col-lg-6">
+                <p className="lead mb-0 text-white">
                   2023° ASSOCIAZIONE CULTURALE ANIME | CF: 90022540679 | GDC
                   WebSite ©
                 </p>

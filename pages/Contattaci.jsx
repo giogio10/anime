@@ -334,16 +334,16 @@ export default function Fe() {
           <DrawerHeader />
         </Main>
 
-        <section class="sezione-icone program text-center pt-2 ">
-          <h1 class="mt-0 text-white"> CONTATTACI </h1>
-          <div class="container mt-5">
+        <section className="sezione-icone program text-center pt-2 ">
+          <h1 className="mt-0 text-white"> CONTATTACI </h1>
+          <div className="container mt-5">
             <div sx={{ backgroundColor: "black", height: 800, width: 1140 }}>
-              <section class="sezione-icone program text-center">
-                <div class="container mt-5">
-                  <div class="row">
-                    <div class="col-lg-6 ">
-                      <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                        <p class="lead mb-0 text-white">
+              <section className="sezione-icone program text-center">
+                <div className="container mt-5">
+                  <div className="row">
+                    <div className="col-lg-6 ">
+                      <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                        <p className="lead mb-0 text-white">
                           <a href={mailtoHref} style={{ color: "red" }}>
                             {" "}
                             progetto.anime@gmail.com{" "}
@@ -352,21 +352,21 @@ export default function Fe() {
                       </div>
                     </div>
 
-                    <div class="col-lg-6 ">
-                      <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                        <p class="lead mb-0 text-white">C.F: 90022540679</p>
+                    <div className="col-lg-6 ">
+                      <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                        <p className="lead mb-0 text-white">C.F: 90022540679</p>
                       </div>
                     </div>
 
-                    <div class="col-lg-6">
-                      <div class="program-singola mx-auto  mb-5 mb-lg-0 text-white">
+                    <div className="col-lg-6">
+                      <div className="program-singola mx-auto  mb-5 mb-lg-0 text-white">
                         <IconButton
                           style={{ color: "white" }}
                           href="https://www.facebook.com/profile.php?id=100091281176567"
                         >
                           <FacebookIcon fontSize="large" />
                         </IconButton>
-                        <p class="lead mb-0 text-white">Facebook</p>
+                        <p className="lead mb-0 text-white">Facebook</p>
 
                         <div className="pt-5">
                           <IconButton
@@ -375,18 +375,18 @@ export default function Fe() {
                           >
                             <InstagramIcon fontSize="large" />
                           </IconButton>
-                          <p class="lead mb-0 text-white">Instagram</p>
+                          <p className="lead mb-0 text-white">Instagram</p>
                         </div>
                       </div>
                     </div>
 
-                    <div class="col-lg-6">
-                      <div class="program-singola mx-auto mb-5 mb-lg-0 text-white">
-                        <p class="lead mb-0 text-white">
+                    <div className="col-lg-6">
+                      <div className="program-singola mx-auto mb-5 mb-lg-0 text-white">
+                        <p className="lead mb-0 text-white">
                           {" "}
                           SEDE LEGALE: Via Monteverdi 44, Pineto(TE){" "}
                         </p>
-                        <p class="lead mb-0 text-white">
+                        <p className="lead mb-0 text-white">
                           {" "}
                           SEDE OPERATIVA: Body Dancing{" "}
                         </p>
@@ -394,9 +394,9 @@ export default function Fe() {
                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2439.694419268994!2d13.991280267999496!3d42.57445362465987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1331be902758deef%3A0x50aad85e0ec614d2!2sBody%20Dancing!5e0!3m2!1sen!2sit!4v1699993349638!5m2!1sen!2sit"
                           width="400"
                           height="280"
-                          allowfullscreen=""
+                          allowFullScreen=""
                           loading="lazy"
-                          referrerpolicy="no-referrer-when-downgrade"
+                          referrerPolicy="no-referrer-when-downgrade"
                         ></iframe>
                       </div>
                     </div>
@@ -405,11 +405,11 @@ export default function Fe() {
               </section>
             </div>
 
-            <section class="sezione-icone  text-center text-grey">
-              <div class="container-fluid">
-                <div class="row justify-content-center">
-                  <div class="col-lg-6">
-                    <p class="lead mb-0 text-white">
+            <section className="sezione-icone  text-center text-grey">
+              <div className="container-fluid">
+                <div className="row justify-content-center">
+                  <div className="col-lg-6">
+                    <p className="lead mb-0 text-white">
                       2023° ASSOCIAZIONE CULTURALE ANIME | CF: 90022540679 | GDC
                       WebSite ©
                     </p>

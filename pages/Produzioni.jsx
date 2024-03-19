@@ -371,26 +371,26 @@ export default function PrimarySearchAppBar() {
         </Main>
 
 
-        <section class="sezione-icone program text-center pt-3 ">
+        <section className="sezione-icone program text-center pt-3 ">
         <href id="ancoraProgram"/>
-          <h1 class="mt-0 text-white"> COM'È PESANTE QUESTA NOTTE  </h1>
-          <h3 class="text-white"> (2024)</h3>
-          <div class="container mt-5">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto1} class=" mb-2 widthimage mt-5" />
+          <h1 className="mt-0 text-white"> COM'È PESANTE QUESTA NOTTE  </h1>
+          <h3 className="text-white"> (2024)</h3>
+          <div className="container mt-5">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={foto1} alt=" COM'È PESANTE QUESTA NOTTE" className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
         </section>
 
-        <section class="sezione-icone program text-center  mt-5 ">
+        <section className="sezione-icone program text-center  mt-5 ">
         <href id="ancoraProgram"/>
-          <h1 class="mt-0 text-white"> GLI INQUIETI </h1>
-          <h3 class="text-white"> (2023)</h3>
-          <div class="container mt-5">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto} class=" mb-5 widthimage mt-5" />
+          <h1 className="mt-0 text-white"> GLI INQUIETI </h1>
+          <h3 className="text-white"> (2023)</h3>
+          <div className="container mt-5">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={foto} alt=" Gli Inquieti" className=" mb-5 widthimage mt-5" />
                   <h3> TRAMA</h3>
-                      <p class="font-weight-light mb-5 mt-4">
+                      <p className="font-weight-light mb-5 mt-4">
                         {" "}
                         14 pazienti psichiatrici rinchiusi in manicomio e
                         sottoposti a misure restrittive, raccontano la genesi
@@ -401,7 +401,7 @@ export default function PrimarySearchAppBar() {
                       </p>
 
                       <h3 > BALLERINI </h3>
-                      <p class="font-weight-light mb-0 mt-4">
+                      <p className="font-weight-light mb-0 mt-4">
                         {" "}
                         Benedetta Giorgini, Noemi D’Addazio, Martina Fasolino,
                         Sabrina Pallotta, Letizia Durantini, Angela Misantone,
@@ -413,11 +413,11 @@ export default function PrimarySearchAppBar() {
               </div>
         </section>
 
-        <section class="sezione-icone  text-center text-grey">
-          <div class="container-fluid">
-            <div class="row justify-content-center">
-              <div class="col-lg-6">
-                <p class="lead mb-0 text-white">
+        <section className="sezione-icone  text-center text-grey">
+          <div className="container-fluid">
+            <div className="row justify-content-center">
+              <div className="col-lg-6">
+                <p className="lead mb-0 text-white">
                   2023° ASSOCIAZIONE CULTURALE ANIME | CF: 90022540679 
                   | GDC WebSite ©
                 </p>

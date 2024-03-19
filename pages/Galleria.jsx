@@ -51,7 +51,7 @@ import foto4 from "./img/gallery/foto4.JPG";
 import foto5 from "./img/gallery/foto_insiemeCentro.png";
 import foto6 from "./img/gallery/foto5.JPG";
 
-//import foto7 from "./img/gallery/foto17.JPG";
+import foto7 from "./img/gallery/foto17.JPG";
 import foto8 from "./img/gallery/foto_teatroCentro.jpg";
 import foto9 from "./img/gallery/foto10.png";
 
@@ -76,11 +76,11 @@ import foto23 from "./img/gallery/foto20_centro.jpg";
 import foto24 from "./img/foto24/09.JPG";
 
 import foto25 from "./img/foto24/89.JPG";
-//import foto26 from "./img/gallery/foto7_centro.JPG";
+import foto26 from "./img/gallery/foto7_centro.JPG";
 import foto27 from "./img/foto24/15.jpg";
 
 import foto28 from "./img/foto24/16.JPG";
-//import foto29 from "./img/gallery/foto9_centro.JPG";
+import foto29 from "./img/gallery/foto9_centro.JPG";
 import foto30 from "./img/foto24/22.jpg";
 
 import foto31 from "./img/foto24/85.JPG";
@@ -94,6 +94,7 @@ import foto36 from "./img/foto24/97.JPG";
 import foto37 from "./img/foto24/98.JPG";
 import foto38 from "./img/foto24/52.jpg";
 import foto39 from "./img/foto24/90.JPG";
+import Script from "next/script";
 
 const drawerWidth = 240;
 
@@ -258,15 +259,16 @@ export default function PrimarySearchAppBar() {
 
   return (
     <>
-      <Head>
-        {" "}
-        <title> GALLERIA </title>
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="black" />
-        <link rel="icon" href="/logo_bianco.png" />
+    <Head>
+    <title> GALLERIA </title>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="black" />
+    <link rel="icon" href="/logo_bianco.png" />
+    
+
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-          
+          rel="stylesheet"
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
           crossorigin="anonymous"
         ></link>
@@ -280,8 +282,9 @@ export default function PrimarySearchAppBar() {
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
           crossorigin="anonymous"
-        ></script>
-      </Head>
+        >
+        </script>
+        </Head>
 
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static" sx={{ backgroundColor: "#181818" }}>
@@ -382,266 +385,266 @@ export default function PrimarySearchAppBar() {
         </Main>
 
 
-        <section class="sezione-icone program text-center pt-2 ">
-          <h1 class="mt-0 text-white"> GALLERIA </h1>
-          <div class="container mt-5">
+        <section className="sezione-icone program text-center pt-2 ">
+          <h1 className="mt-0 text-white"> GALLERIA </h1>
+          <div className="container mt-5">
 
-            <div class="row">
-              <div class="col-lg-4 ">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto} class=" mb-2 widthimage mt-5" />
+            <div className="row">
+              <div className="col-lg-4 ">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={foto} alt='1'className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto2} class=" mb-2 widthimage mt-5" />
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto2} alt='2' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto3} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-4 ">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto4} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto5} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto6} class=" mb-2 widthimage mt-5" />
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto3} alt='3' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-lg-4 ">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto6} class=" mb-2 widthimage mt-5" />
+            <div className="row">
+              <div className="col-lg-4 ">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={foto4} alt='4' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto8} class=" mb-2 widthimage mt-5" />
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto5} alt='5' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto9} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-4 ">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto10} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto11} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto12} class=" mb-2 widthimage mt-5" />
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto6} alt='6' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-lg-4 ">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto13} class=" mb-2 widthimage mt-5" />
+            <div className="row">
+              <div className="col-lg-4 ">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={foto7} alt='7' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto14} class=" mb-2 widthimage mt-5" />
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto8} alt='8' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto15} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-4 ">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto16} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto17} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto18} class=" mb-2 widthimage mt-5" />
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto9} alt='9' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-lg-4 ">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto19} class=" mb-2 widthimage mt-5" />
+            <div className="row">
+              <div className="col-lg-4 ">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={foto10} alt='10' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto20} class=" mb-2 widthimage mt-5" />
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto11} alt='11' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto21} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-4 ">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto22} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto23} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto24} class=" mb-2 widthimage mt-5" />
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto12} alt='12' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-lg-4 ">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto25} class=" mb-2 widthimage mt-5" />
+            <div className="row">
+              <div className="col-lg-4 ">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={foto13} alt='13'className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto25} class=" mb-2 widthimage mt-5" />
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto14} alt='14'className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto27} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-4 ">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto28} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto29} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto30} class=" mb-2 widthimageRespiro mt-5" />
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto15} alt='15'className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-lg-4 ">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto31} class=" mb-2 widthimage mt-5" />
+            <div className="row">
+              <div className="col-lg-4 ">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={foto16} alt='16' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto32} class=" mb-2 widthimage mt-5" />
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto17} alt='17'className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto33} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-4 ">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto34} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto35} class=" mb-2 widthimage mt-5" />
-                </div>
-              </div>
-
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto36} class=" mb-2 widthimage mt-5" />
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto18} alt='18'className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-lg-4 ">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto37} class=" mb-2 widthimage mt-5" />
+            <div className="row">
+              <div className="col-lg-4 ">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={foto19} alt='19'className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto38} class=" mb-2 widthimage mt-5" />
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto20} alt='20'className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
-              <div class="col-lg-4 ">
-                <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto39} class=" mb-2 widthimage mt-5" />
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto21} alt='21' className=" mb-2 widthimage mt-5" />
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-lg-4 ">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={foto22} alt='22'className=" mb-2 widthimage mt-5" />
+                </div>
+              </div>
+
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto23} alt='23'className=" mb-2 widthimage mt-5" />
+                </div>
+              </div>
+
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto24} alt='24' className=" mb-2 widthimage mt-5" />
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-lg-4 ">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={foto25} alt='25' className=" mb-2 widthimage mt-5" />
+                </div>
+              </div>
+
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto26} alt='26' className=" mb-2 widthimage mt-5" />
+                </div>
+              </div>
+
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto27} alt='27' className=" mb-2 widthimage mt-5" />
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-lg-4 ">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={foto28} alt='28' className=" mb-2 widthimage mt-5" />
+                </div>
+              </div>
+
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto29}  alt='29' className=" mb-2 widthimage mt-5" />
+                </div>
+              </div>
+
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto30} alt='30' className=" mb-2 widthimageRespiro mt-5" />
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-lg-4 ">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={foto31} alt='31'className=" mb-2 widthimage mt-5" />
+                </div>
+              </div>
+
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto32} alt='32' className=" mb-2 widthimage mt-5" />
+                </div>
+              </div>
+
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto33} alt='33'className=" mb-2 widthimage mt-5" />
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-lg-4 ">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={foto34} alt='34' className=" mb-2 widthimage mt-5" />
+                </div>
+              </div>
+
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto35} alt='35' className=" mb-2 widthimage mt-5" />
+                </div>
+              </div>
+
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto36} alt='36'className=" mb-2 widthimage mt-5" />
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-lg-4 ">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={foto37} alt='37'className=" mb-2 widthimage mt-5" />
+                </div>
+              </div>
+
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto38} alt='38'className=" mb-2 widthimage mt-5" />
+                </div>
+              </div>
+
+              <div className="col-lg-4 ">
+                <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                  <Image src={foto39} alt='39'className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
             </div>
@@ -649,23 +652,23 @@ export default function PrimarySearchAppBar() {
           </div>
         </section>
 
-        <section class=" program bg-light text-center bg-black  pb-5 ">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-9 ">
-                <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={min} class=" mb3 widthimage mt-5" />
+        <section className=" program bg-light text-center bg-black  pb-5 ">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-9 ">
+                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+                  <Image src={min} alt='logo'className=" mb3 widthimage mt-5" />
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section class="sezione-icone  text-center text-grey">
-          <div class="container-fluid">
-            <div class="row justify-content-center">
-              <div class="col-lg-6">
-                <p class="lead mb-0 text-white">
+        <section className="sezione-icone  text-center text-grey">
+          <div className="container-fluid">
+            <div className="row justify-content-center">
+              <div className="col-lg-6">
+                <p className="lead mb-0 text-white">
                   2023° ASSOCIAZIONE CULTURALE ANIME | CF: 90022540679 | GDC
                   WebSite ©
                 </p>
