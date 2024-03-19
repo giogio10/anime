@@ -51,7 +51,7 @@ import foto4 from "./img/gallery/foto4.JPG";
 import foto5 from "./img/gallery/foto_insiemeCentro.png";
 import foto6 from "./img/gallery/foto5.JPG";
 
-import foto7 from "./img/gallery/foto17.JPG";
+//import foto7 from "./img/gallery/foto17.JPG";
 import foto8 from "./img/gallery/foto_teatroCentro.jpg";
 import foto9 from "./img/gallery/foto10.png";
 
@@ -76,11 +76,11 @@ import foto23 from "./img/gallery/foto20_centro.jpg";
 import foto24 from "./img/foto24/09.JPG";
 
 import foto25 from "./img/foto24/89.JPG";
-import foto26 from "./img/gallery/foto7_centro.JPG";
+//import foto26 from "./img/gallery/foto7_centro.JPG";
 import foto27 from "./img/foto24/15.jpg";
 
 import foto28 from "./img/foto24/16.JPG";
-import foto29 from "./img/gallery/foto9_centro.JPG";
+//import foto29 from "./img/gallery/foto9_centro.JPG";
 import foto30 from "./img/foto24/22.jpg";
 
 import foto31 from "./img/foto24/85.JPG";
@@ -266,7 +266,7 @@ export default function PrimarySearchAppBar() {
         <link rel="icon" href="/logo_bianco.png" />
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-          rel="stylesheet"
+          
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
           crossorigin="anonymous"
         ></link>
@@ -429,7 +429,7 @@ export default function PrimarySearchAppBar() {
             <div class="row">
               <div class="col-lg-4 ">
                 <div class="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto7} class=" mb-2 widthimage mt-5" />
+                  <Image src={foto6} class=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
@@ -555,7 +555,7 @@ export default function PrimarySearchAppBar() {
 
               <div class="col-lg-4 ">
                 <div class=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto26} class=" mb-2 widthimage mt-5" />
+                  <Image src={foto25} class=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
