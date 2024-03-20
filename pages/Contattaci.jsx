@@ -201,7 +201,7 @@ export default function Fe() {
     <>
       <Head>
         {" "}
-        <title> GALLERIA </title>
+        <title> CONTATTACI </title>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="black" />
         <link rel="icon" href="/logo_bianco.png" />
@@ -313,17 +313,17 @@ export default function Fe() {
           <Divider />
           <List>
             <List>
-              <Button sx={{ color: "white" }} href="/Galleria">
+              <Button sx={{ color: "white" }} href="/galleria">
                 {" "}
                 GALLERIA{" "}
               </Button>
               <Divider sx={{ my: 1, color: "white" }} />
-              <Button sx={{ color: "white" }} href="/Produzioni">
+              <Button sx={{ color: "white" }} href="/produzioni">
                 {" "}
                 PRODUZIONI{" "}
               </Button>
               <Divider sx={{ my: 1, color: "white" }} />
-              <Button sx={{ color: "white" }} href="/Contattaci">
+              <Button sx={{ color: "white" }} href="/contattaci">
                 {" "}
                 CONTATTI{" "}
               </Button>

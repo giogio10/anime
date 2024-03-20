@@ -10,7 +10,10 @@
     "build": "next build",
     "start": "next start -p 8070",
     "lint": "next lint"
-  },"engines": { "node": "20.x" },
+  },
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -29,7 +32,8 @@
     "react-dom": "^18.2.0",
     "react-share": "^5.1.0",
     "react-share-social": "^0.1.55",
-    "react-social-icons": "^6.6.0"
+    "react-social-icons": "^6.6.0",
+    "vercel": "^33.6.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
