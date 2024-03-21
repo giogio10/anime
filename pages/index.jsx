@@ -585,9 +585,12 @@ export default function PrimarySearchAppBar() {
           <div className="container-fluid">
             <div className="row justify-content-center">
               <div className="col-lg-6">
+              <p className="lead mb-0 text-white">
+                  2023° ASSOCIAZIONE CULTURALE ANIME 
+                  
+                </p>
                 <p className="lead mb-0 text-white">
-                  2023° ASSOCIAZIONE CULTURALE ANIME | CF: 90022540679 | GDC
-                  WebSite ©
+                   CF: 90022540679 | GDCWebSite ©
                 </p>
               </div>
             </div>
