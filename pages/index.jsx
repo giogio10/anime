@@ -502,7 +502,7 @@ export default function PrimarySearchAppBar() {
                     open={c}
                     onClick={handleCloseGio}
                   >
-                    <h1> DIREZIONE ARTISTICA & WEB DESIGNER </h1>
+                    <h1> DIREZIONE ARTISTICA & WEB DEVELOPER </h1>
                   </Backdrop>
                 </div>
               </div>
