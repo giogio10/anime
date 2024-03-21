@@ -21,6 +21,7 @@
     "@mui/icons-material": "^5.14.16",
     "@mui/material": "^5.14.17",
     "bootstrap": "^5.3.3",
+    "eslint": "^8.57.0",
     "gh-pages": "^6.1.1",
     "git": "^0.1.5",
     "github": "^14.0.0",
@@ -33,7 +34,8 @@
     "react-share": "^5.1.0",
     "react-share-social": "^0.1.55",
     "react-social-icons": "^6.6.0",
-    "vercel": "^33.6.1"
+    "vercel": "^33.6.1",
+    "vite": "^5.2.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
