@@ -51,7 +51,7 @@ import foto4 from "./img/gallery/foto4.JPG";
 import foto5 from "./img/gallery/foto_insiemeCentro.png";
 import foto6 from "./img/gallery/foto5.JPG";
 
-
+import foto7 from "./img/foto24/3_.jpg";
 import foto8 from "./img/gallery/foto_teatroCentro.jpg";
 import foto9 from "./img/gallery/foto10.png";
 
@@ -76,11 +76,11 @@ import foto23 from "./img/gallery/foto20_centro.jpg";
 import foto24 from "./img/foto24/09.JPG";
 
 import foto25 from "./img/foto24/89.JPG";
-
+import foto26 from "./img/gallery/foto9_centro.jpg";
 import foto27 from "./img/foto24/15.jpg";
 
 import foto28 from "./img/foto24/16.JPG";
-
+import foto29 from "./img/gallery/foto7_centro.jpg";
 import foto30 from "./img/foto24/22.jpg";
 
 import foto31 from "./img/foto24/85.JPG";
@@ -432,7 +432,7 @@ export default function PrimarySearchAppBar() {
             <div className="row">
               <div className="col-lg-4 ">
                 <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto30} alt='7' className=" mb-2 widthimage mt-5" />
+                  <Image src={foto7} alt='7' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
@@ -558,7 +558,7 @@ export default function PrimarySearchAppBar() {
 
               <div className="col-lg-4 ">
                 <div className=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto21} alt='26' className=" mb-2 widthimage mt-5" />
+                  <Image src={foto26} alt='26' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
@@ -578,7 +578,7 @@ export default function PrimarySearchAppBar() {
 
               <div className="col-lg-4 ">
                 <div className=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto39}  alt='29' className=" mb-2 widthimage mt-5" />
+                  <Image src={foto29}  alt='29' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
