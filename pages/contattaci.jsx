@@ -414,7 +414,7 @@ export default function Fe() {
                   
                 </p>
                 <p className="lead mb-0 text-white">
-                   CF: 90022540679 | GDCWebSite ©
+                   CF:90022540679| GDCWebSite ©
                 </p>
                   </div>
                 </div>
