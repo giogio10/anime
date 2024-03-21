@@ -79,6 +79,7 @@ import foto25 from "./img/foto24/89.JPG";
 
 import foto27 from "./img/foto24/15.jpg";
 
+import foto28 from "./img/foto24/16.JPG";
 
 import foto30 from "./img/foto24/22.jpg";
 
@@ -431,7 +432,7 @@ export default function PrimarySearchAppBar() {
             <div className="row">
               <div className="col-lg-4 ">
                 <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto10} alt='7' className=" mb-2 widthimage mt-5" />
+                  <Image src={foto30} alt='7' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
@@ -557,7 +558,7 @@ export default function PrimarySearchAppBar() {
 
               <div className="col-lg-4 ">
                 <div className=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto31} alt='26' className=" mb-2 widthimage mt-5" />
+                  <Image src={foto21} alt='26' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
@@ -577,7 +578,7 @@ export default function PrimarySearchAppBar() {
 
               <div className="col-lg-4 ">
                 <div className=" mx-auto mb-5 mb-lg-4 text-white">
-                  <Image src={foto5}  alt='29' className=" mb-2 widthimage mt-5" />
+                  <Image src={foto39}  alt='29' className=" mb-2 widthimage mt-5" />
                 </div>
               </div>
 
