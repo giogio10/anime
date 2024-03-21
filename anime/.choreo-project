@@ -1,0 +1,14 @@
+{
+    "id": "99680e00-3008-4485-98d2-122f7e4d1e74",
+    "orgId": 36034,
+    "name": "anime",
+    "version": "1.0.0",
+    "createdDate": "2024-03-20T10:10:06.811Z",
+    "handler": "pyzr",
+    "region": "EU",
+    "description": " ",
+    "repository": "anime",
+    "branch": "main",
+    "gitProvider": "github",
+    "gitOrganization": "giogio10"
+}

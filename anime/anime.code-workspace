@@ -1,0 +1,18 @@
+{
+    "folders": [
+        {
+            "name": "choreo-project-root",
+            "path": "."
+        },
+        {
+            "name": "anime",
+            "path": "repos/giogio10/anime"
+        }
+    ],
+    "metadata": {
+        "choreo": {
+            "projectID": "99680e00-3008-4485-98d2-122f7e4d1e74",
+            "orgId": "36034"
+        }
+    }
+}
