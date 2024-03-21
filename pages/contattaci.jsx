@@ -352,7 +352,11 @@ export default function Fe() {
                       </div>
                     </div>
 
-                   
+                    <div className="col-lg-6 ">
+                      <div className=" mx-auto mb-5 mb-lg-4 text-white">
+                        <p className="lead mb-0 text-white">C.F:90022540679</p>
+                      </div>
+                    </div>
 
                     <div className="col-lg-6">
                       <div className="program-singola mx-auto  mb-5 mb-lg-0 text-white">
