@@ -378,7 +378,7 @@ export default function PrimarySearchAppBar() {
           <div className="container mt-5">
                 <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
                   <Image src={foto1} alt=" COM'È PESANTE QUESTA NOTTE" className=" mb-2 widthimage mt-5" />
-                   <a href="https://shop.ciaotickets.com/ecommerce/evento/48408?backUrl=https:%2F%2Fwww.ciaotickets.com%2Fit%2Fbiglietti%2Fcome-pesante-questa-notte" className="program-singola mx-auto mb-5 mb-lg-0 text-white fs-1 " > TICKETS </a>
+                   <a href="https://shop.ciaotickets.com/ecommerce/evento/48408?backUrl=https:%2F%2Fwww.ciaotickets.com%2Fit%2Fbiglietti%2Fcome-pesante-questa-notte" className="program-singola mx-auto mb-5 mb-lg-0 text-white fs-1 " > ACQUISTA IL TUO BIGLIETTO QUI </a>
                 </div>
               </div>
         </section>
