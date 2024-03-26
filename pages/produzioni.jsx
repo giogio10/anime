@@ -27,7 +27,7 @@ import Container from "@mui/material/Container";
 import min from "./img/min.png";
 
 import foto from "./img/productions/Inquieti.png";
-import foto1 from "./img/productions/comingSoon2.png";
+import foto1 from "./img/productions/DEF.jpg";
 
 const drawerWidth = 240;
 
