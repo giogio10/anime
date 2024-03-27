@@ -370,71 +370,101 @@ export default function PrimarySearchAppBar() {
           <DrawerHeader />
         </Main>
 
-
         <section className="sezione-icone program text-center pt-3 ">
-        <href id="ancoraProgram"/>
-          <h1 className="mt-0 text-white"> COM'È PESANTE QUESTA NOTTE  </h1>
+          <href id="ancoraProgram" />
+          <h1 className="mt-0 text-white"> COM'È PESANTE QUESTA NOTTE </h1>
           <h3 className="text-white"> (2024)</h3>
           <div className="container mt-5">
-                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto1} alt=" COM'È PESANTE QUESTA NOTTE" className=" mb-2 widthimage mt-5" />
-                   <a href="https://shop.ciaotickets.com/ecommerce/evento/48408?backUrl=https:%2F%2Fwww.ciaotickets.com%2Fit%2Fbiglietti%2Fcome-pesante-questa-notte" className="program-singola mx-auto mb-5 mb-lg-0 text-white fs-1 " > ACQUISTA IL TUO BIGLIETTO QUI </a>
-                </div>
-              </div>
+            <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+              <Image
+                src={foto1}
+                alt=" COM'È PESANTE QUESTA NOTTE"
+                className=" mb-2 widthimage mt-5"
+              />
+              <a
+                href="https://shop.ciaotickets.com/ecommerce/evento/48408?backUrl=https:%2F%2Fwww.ciaotickets.com%2Fit%2Fbiglietti%2Fcome-pesante-questa-notte"
+                className="program-singola mx-auto mb-5 mb-lg-0 text-white fs-1 "
+              >
+                {" "}
+                ACQUISTA IL TUO BIGLIETTO QUI{" "}
+              </a>
+              <h3> TRAMA</h3>
+              <p className="font-weight-light mb-5 mt-4">
+                {" "}
+                In silenzio sento dentro di me il caos che si accresce nel buio.
+                Cerco una luce che mi riscalda dal freddo provocato dalla notte.
+                Mi rassegno alla solitudine della mia esistenza. Poi però mi
+                giro: c’è qualcuno che sembra essere come me. Assieme siamo un
+                ammasso di corpi che si aggrappano e che cercano di alleggerire
+                il peso di una notte senza fine. Aspettiamo la luce del giorno
+                che ci illumina, allontanandoci dal mistero dell’oscurità.
+              </p>
+
+              <h3> BALLERINI </h3>
+              <p className="font-weight-light mb-0 mt-4">
+                {" "}
+                Benedetta Giorgini, Noemi D’Addazio, Martina Fasolino, Sabrina
+                Pallotta, Letizia Durantini, Angela Misantone, Giulia Misanonte,
+                Delinda Di Gregorio, Caterina Adriani, Giulia Di Marco,
+                Pierangelo Di Gregorio, Cecilia Nercide, Alessia Rapacchia,
+                Giorgia De Cristofaro, Angelica Sorricchio, Alessia Botta.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="sezione-icone program text-center  mt-5 ">
-        <href id="ancoraProgram"/>
+          <href id="ancoraProgram" />
           <h1 className="mt-0 text-white"> GLI INQUIETI </h1>
           <h3 className="text-white"> (2023)</h3>
           <div className="container mt-5">
-                <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
-                  <Image src={foto} alt=" Gli Inquieti" className=" mb-5 widthimage mt-5" />
-                  <h3> TRAMA</h3>
-                      <p className="font-weight-light mb-5 mt-4">
-                        {" "}
-                        14 pazienti psichiatrici rinchiusi in manicomio e
-                        sottoposti a misure restrittive, raccontano la genesi
-                        della loro pazzia, creando una narrazione fatta di
-                        disturbi legati alle malattie, alla tossico dipendenza e
-                        agli imprevisti della vita, mostrando tuttavia un lato
-                        di una realtà comune e universale.
-                      </p>
+            <div className="program-singola mx-auto mb-5 mb-lg-0 text-white ">
+              <Image
+                src={foto}
+                alt=" Gli Inquieti"
+                className=" mb-5 widthimage mt-5"
+              />
+              <h3> TRAMA</h3>
+              <p className="font-weight-light mb-5 mt-4">
+                {" "}
+                14 pazienti psichiatrici rinchiusi in manicomio e sottoposti a
+                misure restrittive, raccontano la genesi della loro pazzia,
+                creando una narrazione fatta di disturbi legati alle malattie,
+                alla tossico dipendenza e agli imprevisti della vita, mostrando
+                tuttavia un lato di una realtà comune e universale.
+              </p>
 
-                      <h3 > BALLERINI </h3>
-                      <p className="font-weight-light mb-0 mt-4">
-                        {" "}
-                        Benedetta Giorgini, Noemi D’Addazio, Martina Fasolino,
-                        Sabrina Pallotta, Letizia Durantini, Angela Misantone,
-                        Giulia Misanonte, Delinda Di Gregorio, Caterina Adriani,
-                        Giulia Di Marco, Pierangelo Di Gregorio, Cecilia
-                        Nercide, Alessia Rapacchia, Giorgia De Cristofaro.
-                      </p>
-                </div>
-              </div>
+              <h3> BALLERINI </h3>
+              <p className="font-weight-light mb-0 mt-4">
+                {" "}
+                Benedetta Giorgini, Noemi D’Addazio, Martina Fasolino, Sabrina
+                Pallotta, Letizia Durantini, Angela Misantone, Giulia Misanonte,
+                Delinda Di Gregorio, Caterina Adriani, Giulia Di Marco,
+                Pierangelo Di Gregorio, Cecilia Nercide, Alessia Rapacchia,
+                Giorgia De Cristofaro.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="sezione-icone  text-center text-grey">
           <div className="container-fluid">
             <div className="row justify-content-center">
               <div className="col-lg-6">
-              <p className="lead mb-0 text-white">
-                  2023° ASSOCIAZIONE CULTURALE ANIME 
-                  
+                <p className="lead mb-0 text-white">
+                  2023° ASSOCIAZIONE CULTURALE ANIME
                 </p>
                 <p className="lead mb-0 text-white">
-                   CF:90022540679| GDCWebSite ©
+                  CF:90022540679| GDCWebSite ©
                 </p>
               </div>
             </div>
           </div>
         </section>
-
       </Box>
     </>
   );
 }
-
 
 /*
 
