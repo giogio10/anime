@@ -381,13 +381,13 @@ export default function PrimarySearchAppBar() {
                 alt=" COM'È PESANTE QUESTA NOTTE"
                 className=" mb-2 widthimage mt-5"
               />
-              <a
+               {/* <a
                 href="https://shop.ciaotickets.com/ecommerce/evento/48408?backUrl=https:%2F%2Fwww.ciaotickets.com%2Fit%2Fbiglietti%2Fcome-pesante-questa-notte"
                 className="program-singola mx-auto mb-5 mb-lg-0 text-white fs-1 "
               >
                 {" "}
                 ACQUISTA IL TUO BIGLIETTO QUI{" "}
-              </a>
+             </a>*/}
               <h3> TRAMA</h3>
               <p className="font-weight-light mb-5 mt-4">
                 {" "}
